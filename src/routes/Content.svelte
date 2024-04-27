@@ -139,22 +139,27 @@
 		transition: all 0.2s ease-in-out;
 	}
 
-	@media only screen and (min-width: 455px) {
-		.content-container {
-			padding: 40px;
-			border-radius: 24px;
-		}
-
-		img {
-			border-radius: 12px;
-		}
-	}
-
 	.content {
 		padding: 40px 32px;
 		display: flex;
 		flex-direction: column;
 		gap: 32px;
+	}
+
+	@media only screen and (min-width: 455px) {
+		.content-container {
+			padding: 40px;
+			border-radius: 24px;
+			gap: 40px;
+		}
+
+		img {
+			border-radius: 12px;
+		}
+
+		.content {
+			padding: 0;
+		}
 	}
 
 	.section {
