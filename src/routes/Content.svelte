@@ -127,8 +127,27 @@
 
 <style>
 	.content-container {
+		width: 100%;
+		max-width: 736px;
 		display: flex;
 		flex-direction: column;
+		background-color: var(--white);
+		transition: all 0.2s ease-in-out;
+	}
+
+	img {
+		transition: all 0.2s ease-in-out;
+	}
+
+	@media only screen and (min-width: 455px) {
+		.content-container {
+			padding: 40px;
+			border-radius: 24px;
+		}
+
+		img {
+			border-radius: 12px;
+		}
 	}
 
 	.content {
