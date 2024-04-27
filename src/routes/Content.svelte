@@ -195,7 +195,7 @@
 	.heading-small {
 		font-family: 'Outfit', Arial, Helvetica, sans-serif;
 		font-size: 1.25rem;
-		font-weight: semibold;
+		font-weight: 600;
 		line-height: 100%;
 		letter-spacing: 0;
 		color: var(--dark-raspberry);
